@@ -1,6 +1,9 @@
 package moedas.view;
 
+import moedas.qual.Valores;
+
 public class Tela {
+	Valores v = new Valores();
 	public void inicio() {
 		System.out.println("========================================================================");
 		System.out.println("Olá! Este é um sistema basico de contagem de moedas");
@@ -26,6 +29,11 @@ public class Tela {
 		System.out.println("Informe o valor de a (deixe 0 caso não tenha");
 	}
 	
+	public void sobreA() {
+		System.out.println("Você deseja atribuir um valor para A?");
+		System.out.println("Digite 1 para confirmar");
+	}
+	
 	public void espaco(){
 		System.out.println(" ");
 		System.out.println("========================================================================");
@@ -37,4 +45,7 @@ public class Tela {
 	}
 	
 	//TODO fazer a aba de resultado quando necessario!
+	public void fim() {
+		System.out.println("Seu resultado é" + v.getresultado());
+	}
 }
