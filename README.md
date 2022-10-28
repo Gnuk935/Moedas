@@ -21,11 +21,11 @@
 
 <p>nR|x| = numero Real de moedas</>
 
-<p>private Integer nRc; = Numero real de cinco centavos (0,5)</>
-<p>private Integer nRd; = Numero real de dez centavos (0,10)</>
-<p>private Integer nRv; = Numero real de vinte e cinco centavos (0,25)</>
-<p>private Integer nRcc; = Numero real de cinquenta centavos (0,50)</>
-<p>private Integer nRu; = Numero real de um real (1)</>
+<p>nRc; = Numero real de cinco centavos (0,5)</>
+<p>nRd; = Numero real de dez centavos (0,10)</>
+<p>nRv; = Numero real de vinte e cinco centavos (0,25)</>
+<p>nRcc; = Numero real de cinquenta centavos (0,50)</>
+<p>nRu; = Numero real de um real (1)</>
 
 <p>-- </>
 <p>A soma começa pegando os valores das var n | r | a </>
